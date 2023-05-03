@@ -62,7 +62,7 @@ client_socket.close()
 É criado um socket utilizando TCP, depois de atribuir a porta e servidor. Depois de configurar o socket do servidor com as funções "bind()" e "listen()", o servidor fica aguardando conexões de clientes. Quando um cliente tenta se conectar, o servidor aceita a conexão usando a função "accept()", criando um novo socket para lidar com a comunicação com aquele cliente específico. Enquanto existir uma conexão, o servidor executa suas verificações, no nosso caso, se o número recebido do cliente é par, ímpar ou se tem mais de 10 digitos. 
 
 **• Cliente:** 
-O mesmo acontece com o cliente, um socket é criado e ele tenta se conectar com o servidor. Mas, diferente do servido, o cliente gera um número aleatório, envia para o servidor e recebe sua resposta que é imprimida no console juntamente com a palavra "FIM". 
+O mesmo acontece com o cliente, um socket é criado e ele tenta se conectar com o servidor. Mas, diferente do servidor, o cliente gera um número aleatório, envia para o servidor e recebe sua resposta que é imprimida no console juntamente com a palavra "FIM". 
 
 
 ## Como executar 
