@@ -1,3 +1,4 @@
+#Trabalho de redes • Israely Lima e Suellen Correia
 import socket
 import random
 import time
