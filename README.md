@@ -18,3 +18,4 @@ Para o desenvolvimento do trabaho utilizamos a linguagem Python. Por ser uma lin
 ## Autores
 
 - [@israelylima](https://github.com/israelylima)
+- Suellen Correia
